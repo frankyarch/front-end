@@ -1,0 +1,1 @@
+export const addNumber = (...numbers) => numbers.reduce((sum, num) => sum + num, 0); // Use reduce for efficiency
